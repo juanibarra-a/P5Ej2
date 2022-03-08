@@ -14,7 +14,6 @@ class OverviewViewModel : ViewModel() {
 
     // The external immutable LiveData for the request status
     val status: LiveData<String> = _status
-
     init {
         getMarsPhotos()
     }
